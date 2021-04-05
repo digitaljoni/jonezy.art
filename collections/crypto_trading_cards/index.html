@@ -39,6 +39,11 @@
 
         h2.bg-black-50 {
             background-color: rgba(0, 0, 0, .60);
+
+        }
+
+        a .rounded-lg {
+            border: 2px solid #a8ad00;
         }
 
         body {
@@ -53,6 +58,84 @@
             background-color: #a8ad00;
             color: #ffffff;
         }
+
+
+
+        @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+
+
+
+        body #wrapper {
+             
+            max-width: 720px;
+            margin: auto;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        body #wrapper .header {
+            padding: 1.5rem 0;
+        }
+
+        body #wrapper .header .modelev-logo {
+            width: 90px;
+            height: 90px;
+            margin-bottom: 10px;
+            border-radius: 50%;
+        }
+
+        body #wrapper li a {
+            display: block;
+            color: #ffffff;
+            background-color: #000000;
+            border: 2px solid #a8ad00;
+            padding: 18px 57px;
+            transition: 0.3s;
+        }
+
+        body #wrapper li a:hover {
+            color: #000000;
+            background-color: #f1fa00;
+            border: 2px solid #f1fa00;
+            transition: 0.3s;
+        }
+
+        body #wrapper li {
+            margin: .9rem;
+        }
+
+
+        @media (max-width: 640px) {
+            #wrapper {
+                display: block;
+            }
+
+            #main-nav.flex {
+                display: none;
+            }
+        }
+
+        @media (min-width: 768px) {
+            #wrapper {
+                display: block;
+            }
+
+            #main-nav.flex {
+                display: none;
+            }
+        }
+
+        @media (min-width: 992px) {
+            #wrapper {
+                display: none;
+            }
+
+            #main-nav.flex {
+                display: flex;
+            }
+        }
     </style>
     
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-EQTC73CJJT"></script>
@@ -66,20 +149,23 @@
 </head><body><header class="text-gray-700 body-font sticky top-0 bg-white z-10">
     <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" href="https://jonezy.art/"><img src="./images/jonezy_art_logo.png" alt="Jonezy Art"></a>
-        <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+        <nav id="main-nav" class="md:ml-auto flex flex-wrap items-center text-base justify-center">
             
             
-            <a href="https://beta.cent.co/jonezyart" class="mr-2 px-2 rounded cursor-pointer select-none hover:text-gray-900">
+            <a href="https://jonezyart.medium.com" class="mr-2 px-2 rounded cursor-pointer select-none hover:text-gray-900">
                 Blog</a>
+            
+            <a href="https://twitter.com/jonezyart" class="mr-2 px-2 rounded cursor-pointer select-none hover:text-gray-900">
+                Twitter</a>
             
             <a href="https://instagram.com/jonezyart" class="mr-2 px-2 rounded cursor-pointer select-none hover:text-gray-900">
                 Instagram</a>
             
+            <a href="https://oncyber.io/exhibits/c3bec7fWbT467bEm1aJg" class="mr-2 px-2 rounded cursor-pointer select-none hover:text-gray-900">
+                3D Gallery</a>
+            
             <a href="https://www.tryshowtime.com/jonezyart" class="mr-2 px-2 rounded cursor-pointer select-none hover:text-gray-900">
                 Showtime</a>
-            
-            <a href="https://twitter.com/jonezyart" class="mr-2 px-2 rounded cursor-pointer select-none hover:text-gray-900">
-                Twitter</a>
             
         </nav>
     </div>
